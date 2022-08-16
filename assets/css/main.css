@@ -1066,3 +1066,7 @@
     border-color: #B9B9FF;
     text-align: right;
 }
+
+#afterLogin{
+    display: none;
+}
