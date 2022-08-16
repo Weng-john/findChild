@@ -226,6 +226,7 @@
 		font-size: 1.85em;
 		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
+        display: inherit;
 	}
 
 	h2 {
@@ -1053,3 +1054,15 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+.buttonArea{
+    width: 100%;
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+.confirm{
+    background-color: #B9B9FF;
+    border-color: #B9B9FF;
+    text-align: right;
+}
