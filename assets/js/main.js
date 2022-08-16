@@ -3,10 +3,10 @@ var address= location.href;
 var token;
 
 address= address.split("?");
-if(address.length>1){
+if(address.length==1){
     document.getElementById("main").style.display= "none";
     document.getElementById("afterLogin").style.display= "block";
-    address[1].split("=");
+    address= address[1].split("=");
     token= address[1];
     console.log(token);
 }
